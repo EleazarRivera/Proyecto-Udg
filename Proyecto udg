@@ -1,9 +1,54 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script src= "scripts.js"></script>
 
-</body>
+</head>
+ <body>
+<div class="page-nav">
+    <h1>Tienda de articulos naturistas la Yerba</h1>
+</div>
+<div class="page-content">
+    <div class="product-container">
+        <h3>Magnecio</h3>
+        <img src="imagenes/producto-1.jpg"/>
+        <h3>$99</h3>
+        <button class="button-add">Agregar al carrito</button>
+    </div>
+    <div class="product-container">
+        <h3>Melatonina</h3>
+        <img src="imagenes/producto-2.jpg"/>
+        <h3>$99</h3>
+        <button class="button-add">Agregar al carrito</button>
+    </div>
+    <div class="product-container">
+        <h3>Curcuma</h3>
+        <img src="imagenes/producto-3.jpg"/>
+        <h3>$99</h3>
+        <button class="button-add">Agregar al carrito</button>
+    </div>
+    <div class="product-container">
+        <h3>Stevia</h3>
+        <img src="imagenes/producto-4.jpg"/>
+        <h3>$99</h3>
+        <button class="button-add">Agregar al carrito</button>
+    </div>
+</div>
+
+
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
