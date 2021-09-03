@@ -1,1 +1,0 @@
-Proyecto TIENDA de artículos
