@@ -1,7 +1,21 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+
 body{
    margin: 0px;
    background-color: aliceblue;
-   font-family: 'Roboto Mono', monospace;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+header{
+
+text-align: center;
 
 
 }
@@ -16,6 +30,7 @@ body{
     color: black;
     border: 2px solid #4CAF50;
     transition-duration: 0.4s;
+    float: left;
 }
 
 .button-add:hover{
@@ -23,8 +38,10 @@ body{
  color: white;
 }
 .page-nav {
-    background-color: #2196F3;
-    border: 1px solid black;
+    background-color:rgb(255, 255, 0);
+    border: 1px solid yellow;
+    text-align: center;
+    height: 105;
   
 }
 .page-nav h1 {
@@ -35,12 +52,30 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
+    float: left;
+    width:79.6%;
+    background: lightblue;
+    min-height: 1377px;
+    padding: 2px;
  
  }
+aside{
+float: right;
+width:calc(20%-20px);
+padding: 23px;
+padding-top: 40px;
+min-height: 1320px;
+background: lawngreen;
+
+
+}
+
+
 .product-container{
    
     margin: 20px;
+    float: left;
 
 }
 
@@ -53,5 +88,38 @@ body{
 
  .product-container img{
 
-    width: 450px; height: 300px;
+    width: 400px; height: 300px;
+    float: left;
  }
+
+nav{
+
+    background:rgb(100, 250, 100);
+    height: auto;
+    width: 449.6px;
+    float: left;
+   border-bottom: 1px solid rgb(228, 222, 222);
+}
+
+ nav ul li{
+     float:left;
+     list-style: none;
+     margin: 10px;
+     line-height: 30px;
+    
+ } 
+.clearfix{
+
+    clear:both;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+
+
+
+}
