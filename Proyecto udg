@@ -5,50 +5,124 @@
 <script src= "scripts.js"></script>
 
 </head>
- <body>
+ <body> 
+
+
 <div class="page-nav">
-    <h1>Tienda de articulos naturistas la Yerba</h1>
-</div>
+   
+    <header>
+     
+        <h1>Tienda de articulos naturistas<br> "La yerba"</h1>
+    </header>
+</div>  
+  <nav>
+    <ul>
+   
+ <li> 
+    <a href="index.html" >
+     
+        Acerca de nuestros productos
+   
+    </a>
+</li>
+
+    </ul>
+
+    </nav>
+</div>  
+<nav>
+  <ul>
+ 
+<li>
+  <a href="index.html" >
+      ofertas
+ 
+  </a>
+</li>
+
+  </ul>
+
+  </nav>
+</div>  
+<nav>
+  <ul>
+ 
+<li>
+  <a href="index.html" >
+      Atencion a clientes
+ 
+  </a>
+</li>
+
+  </ul>
+
+  </nav>
+  <div class="clearfix"></div>
+
 <div class="page-content">
     <div class="product-container">
         <h3>Magnecio</h3>
-        <img src="imagenes/producto-1.jpg"/>
+        <img src="imagen1.jpg"/>
         <h3>$99</h3>
         <button class="button-add">Agregar al carrito</button>
     </div>
     <div class="product-container">
         <h3>Melatonina</h3>
-        <img src="imagenes/producto-2.jpg"/>
+        <img src="imagen2.jpg"/>
         <h3>$99</h3>
         <button class="button-add">Agregar al carrito</button>
     </div>
     <div class="product-container">
         <h3>Curcuma</h3>
-        <img src="imagenes/producto-3.jpg"/>
+        <img src="imagen3.jpg"/>
         <h3>$99</h3>
         <button class="button-add">Agregar al carrito</button>
     </div>
     <div class="product-container">
         <h3>Stevia</h3>
-        <img src="imagenes/producto-4.jpg"/>
+        <img src="imagen4.jpg"/>
         <h3>$99</h3>
         <button class="button-add">Agregar al carrito</button>
     </div>
+    <div class="product-container">
+      <h3>Te de manzanilla</h3>
+      <img src="imagen5.jpg"/>
+      <h3>$45</h3>
+      <button class="button-add">Agregar al carrito</button>
+  </div>
+  <div class="product-container">
+    <h3>Vitamina D3</h3>
+    <img src="imagen6.jpg"/>
+    <h3>$99</h3>
+    <button class="button-add">Agregar al carrito</button>
 </div>
+</div>
+<aside>
+
+  <h2>Barra lateral</h2>
+      <form>
+<input type="text">
+<input type="submit" value="Buscar"/><br>
+
+<br><p>contamos con una amplia</p>
+<p>gama de articulos </p>
+<p>para el cuidado de la</p>
+<p>salud.</p><br>
+<p>puedes contactarnos al</p>
+<p>4425073591 o al 2215332</p>
+
+        </form>
+
+</aside>
+<div class="clearfix"></div>
+
+<footer>
+
+Tienda Naturistas"LA YERBA"&COPY 2021
 
 
+</footer>
  </body>
-
-
-
-
-
-
-
-
-
-
-
 
 
 </html>
