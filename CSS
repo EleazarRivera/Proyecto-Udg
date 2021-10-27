@@ -175,22 +175,18 @@ li a:hover:not(.active) {
     
 }
 
-li a:hover
+
 
 .clearfix{
 
     clear:both;
 }
 footer{
-    background: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
     text-align: center;
     height: 90px;
     font-family: 'Kanit', sans-serif;
-
-
-
-
 
 }
 .page-content-1{
