@@ -17,48 +17,28 @@
         <h1>Tienda de articulos naturistas<br> "La yerba"</h1>   
       </header>
 </div>  
-  <nav>
-    <ul>
-   
- <li> 
-    <a href="index.html" >
-     
-        Acerca de nuestros productos
-   
-    </a>
-</li>
-
-    </ul>
-
-    </nav>
-</div>  
+<a class="active" href="index.html">Inicio</a></div>
 <nav>
-  <ul>
- 
-<li>
-  <a href="index.html" >
-      ofertas
- 
-  </a>
-</li>
+<ul>
+ <li><a  href="Acerca.html">Acerca de nosotros </a></li>
+</ul>
+</nav>
 
-  </ul>
-
-  </nav>
 </div>  
+
 <nav>
-  <ul>
- 
-<li>
-  <a href="index.html" >
-      Atencion a clientes
- 
-  </a>
-</li>
+<ul>
+<li><a href="index.html"> ofertas</a></li>
+</ul>
+</nav>
+</div>  
 
-  </ul>
+<nav>
+ <ul>
+<li><a href="index.html" >Atencion a clientes</a></li>
+</ul>
+</nav>
 
-  </nav>
   <div class="clearfix"></div>
 
 <div class="page-content">
@@ -121,7 +101,7 @@
   <p>Puedes contactarnos al 4425073591 o al 2215332</p>
   
   <br> 
-   <center> 
+  
   <p>Salud</p>
   <img src="imagen8.jpg"><br>
   <p>Bienestar</p>
@@ -131,7 +111,7 @@
 <p>Anti inflamtorios naturales</p>
   <img src="imagen11.jpg">
   
-  </center>
+  
           </form>
   
   </aside>
@@ -149,3 +129,4 @@ Tienda Naturistas "LA YERBA" &COPY 2021<p></p>
 
 
 </html>
+
