@@ -56,14 +56,15 @@ font-family: 'Lobster', cursive;
     color: white;
    }
 .page-nav {
-    background-color:rgb(15, 171, 233);
-    border: 1px solid yellow;
+    background-color:rgb(31, 160, 211);
+    border: .5px solid rgb(61, 92, 235);
     text-align: center;
     height: 105;
   
 }
 .page-nav h1 {
    margin: 20px;
+   color: rgb(252, 252, 22);
 
 }
 
@@ -81,6 +82,7 @@ font-family: 'Lobster', cursive;
     background: lightblue;
     min-height: 1400px;
     padding: 1px;
+    color:rgb(0, 4, 255);
     
  
  }
@@ -93,6 +95,7 @@ min-height: 1320px;
 background: rgb(178, 223, 231);
 border: 1px solid white;
 font-family: 'Kanit', sans-serif;
+text-align:justify;
 
 
 }
@@ -128,22 +131,52 @@ margin-left: 2px;
     float: left;
  }
 
-nav{
-    background:rgb(233, 229, 15);
-    height:auto;
-    width: 449.6px;
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 146, 22);
     float: left;
-   border-bottom: 1px solid rgb(228, 222, 222);
-   font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    
+    
 }
 
- nav ul li{
-     float:left;
-     list-style: none;
-     margin: 9px;
-     line-height: 30px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 13.3px;
+    text-decoration: none;
+    width: 397.8px;
+     border-right: 1px solid #bbb;
+     
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(217, 240, 15);
     
- } 
+}
+
+.active {
+    background-color: #126fe9;
+    float: left;
+    padding:14px 16px ;
+    color: rgb(248, 250, 240);
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    border-right: 1px solid #bbb;
+
+    
+}
+
+li a:hover
+
 .clearfix{
 
     clear:both;
@@ -153,9 +186,34 @@ footer{
     color: white;
     text-align: center;
     height: 90px;
+    font-family: 'Kanit', sans-serif;
 
 
 
 
 
+}
+.page-content-1{
+    background-color: white;
+text-align: justify;
+font-size: 18px;
+color:rgb(10, 3, 1)
+
+
+}
+.page-content-1 h1{
+text-align: center;
+color:rgb(35, 72, 219);
+font-style: italic;
+font-weight: bold;
+border-top:2px solid green;
+border-bottom: 2px solid green;
+background-color: yellow;
+
+}
+.page-content-1 img{
+    width: 199px;
+    height: 180px;
+    justify-content: center;
+    
 }
