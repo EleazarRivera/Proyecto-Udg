@@ -55,6 +55,12 @@ font-family: 'Lobster', cursive;
     background-color: #4CAF50;
     color: white;
    }
+   .button-add2:hover{
+
+background-color: #4CAF50;
+color:white;
+
+   }
 .page-nav {
     background-color:rgb(31, 160, 211);
     border: .5px solid rgb(61, 92, 235);
@@ -65,6 +71,7 @@ font-family: 'Lobster', cursive;
 .page-nav h1 {
    margin: 20px;
    color: rgb(252, 252, 22);
+  text-shadow: 2px 2px 5px rgb(223, 17, 17);
 
 }
 
@@ -82,13 +89,14 @@ font-family: 'Lobster', cursive;
     background: lightblue;
     min-height: 1400px;
     padding: 1px;
-    color:rgb(0, 4, 255);
-    
- 
+    color:rgb(0, 2, 1);
+    text-shadow: 2px 2px 5px rgb(74, 0, 245);
+    font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
  }
 aside{
 float: left;
-width:21.1%;
+width:21.8%;
 padding: 23px;;
 padding-top: 60px;
 min-height: 1320px;
@@ -133,7 +141,7 @@ margin-left: 2px;
 
  ul {
     list-style-type: none;
-    margin: 0;
+    margin:0 ;
     padding: 0;
     overflow: hidden;
     background-color: rgb(36, 146, 22);
@@ -141,20 +149,24 @@ margin-left: 2px;
     font-family: 'Kanit', sans-serif;
     
     
+    
 }
 
 li {
     float: left;
+    
+    width:542px;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 13.3px;
+    padding:18px 9px ;
     text-decoration: none;
-    width: 397.8px;
+     width: auto;
      border-right: 1px solid #bbb;
+     
      
 }
 
@@ -166,11 +178,14 @@ li a:hover:not(.active) {
 .active {
     background-color: #126fe9;
     float: left;
-    padding:14px 16px ;
+    padding:18px 9px ;
     color: rgb(248, 250, 240);
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
     border-right: 1px solid #bbb;
+    width: 40px;
+    
+
 
     
 }
@@ -213,3 +228,137 @@ background-color: yellow;
     justify-content: center;
     
 }
+.fondos {
+background-image: url("imagen14.jpg");
+}
+.tituloO{
+    font-size: 30px;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    color: rgb(206, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.Pcontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    padding: 1px;
+    color:rgb(0, 2, 1);
+    text-shadow: 2px 2px 5px rgb(74, 0, 245);
+    font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   width: 100%;
+    
+}
+
+
+.contenedor :hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+} 
+
+.contenedor{
+    margin: 30px;
+    float: left;
+    background-color: rgb(239, 241, 239);
+    border-radius: 10px;
+ 
+    text-shadow:2px 2px 5px red;
+    color: blue;
+}
+.contenedor img{
+    width:200px ;
+    height:200px ;
+    float: left;
+    border-radius: 16px;
+}
+.button-add2 {
+    border: none;
+    font-size:  16px;
+    text-align: center;
+    border-radius:  10px;
+    padding: 19px 37px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    float: left;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    float: left;
+}
+
+    .button-add2 :hover{
+        background-color: #4CAF50;
+        color: white;
+    
+    }
+    .titulo1{
+        color: rgb(240, 240, 240);
+        text-shadow:2px 2px 5px red;
+        font-size: 40px;
+        background-image: url("fondo1.jpg");
+        text-transform: uppercase;
+    }
+    .fondo1{
+
+        background-image: url("fondo4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 900px;
+    }
+    .sub{
+        text-align: center;
+        font-size: 40px;
+        color: blue;
+        text-shadow: 2px 2px 5px yellow;
+        text-transform: uppercase;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .texto {
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .redesconte{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    padding: 1px;
+    color:rgb(0, 2, 1);
+    text-shadow: 2px 2px 5px rgb(74, 0, 245);
+    font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   width: 100%;
+   margin-top: 200px;
+    
+
+
+
+    }
+    .redes img{
+        width:200px ;
+        height:200px ;
+        float: left;
+        border-radius: 10px;
+
+
+    }
+    .redes{
+
+        margin: 11px;
+        float: left;
+        background-color: rgb(239, 241, 239);
+        border-radius: 10px;
+     
+        text-shadow:2px 2px 5px red;
+        color: blue;
+        margin-bottom: 30px;
+
+    }
